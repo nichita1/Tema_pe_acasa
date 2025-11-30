@@ -1,3 +1,4 @@
+//exercitiul--7.
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -19,3 +20,4 @@ cin>>P[i1].y;
     }
 return 0;
 }
+
