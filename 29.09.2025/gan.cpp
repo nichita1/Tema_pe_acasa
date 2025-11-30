@@ -45,9 +45,6 @@ int main(){
     cin>>C;
     int B;
     cin>>B;
-
-    // Problema 2: Eliminare numere care incep cu cifra C
-    
     int j=0;
     for(int i=0;i<n;++i){
         if(p_c(a[i])!=C){
@@ -56,16 +53,12 @@ int main(){
         }
     }
     n=j;
-    
-    // Afisare dupa P2
+  
     cout<<"Dupa eliminare (P2):"<<endl;
     for(int i=0;i<n;++i){
         cout<<a[i]<<" ";
     }
     cout<<endl;
-
-    // Problema 3: Inserare numar B dupa fiecare numar format din cifre identice
-    
     int i=0;
     while(i<n){
         if(id_c(a[i])){
@@ -80,8 +73,6 @@ int main(){
             i++;
         }
     }
-
-    // Afisare dupa P3
     cout<<"Dupa inserare (P3):"<<endl;
     for(int k=0;k<n;++k){
         cout<<a[k]<<" ";
@@ -90,4 +81,5 @@ int main(){
   }
     cout<<endl;
     return 0;
+
 }
