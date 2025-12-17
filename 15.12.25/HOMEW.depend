@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1765997406 source:c:\users\user\desktop\ifo\homew\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+
